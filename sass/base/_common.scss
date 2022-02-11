@@ -13,10 +13,13 @@ ul {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  // font-style: normal;
+  // font-weight: 400;
   font-size: 14px;
-  background-color: var(--bg-prime-color);
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+
+  // background-color: var(--bg-prime-color);
   color: var(--text-prime-color);
 
   // ! ===== РИСУНКИ В INLINE-BLOCK

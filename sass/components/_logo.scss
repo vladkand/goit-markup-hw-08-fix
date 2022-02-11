@@ -4,14 +4,9 @@
   font-family: Raleway;
   font-weight: 700;
   font-size: 24px;
+
   line-height: (28 / 24);
   letter-spacing: 0.03em;
-
-  transition: outline-color $function;
-
-  &:focus {
-    outline-color: var(--text-accent-color);
-  }
 
   color: var(--text-accent-color);
   & .logo__part--dark {
@@ -21,6 +16,12 @@
   & .logo__part--light {
     color: var(--bg-prime-color);
   }
+  transition: outline-color $function;
+
+  &:focus {
+    outline-color: var(--text-accent-color);
+  }
+
   @include desktop {
     font-size: 26px;
     line-height: (31 / 26);

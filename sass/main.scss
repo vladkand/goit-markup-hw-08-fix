@@ -1,5 +1,7 @@
+@import './base/common';
+
 @import './utils/variables';
-@import './utils/add-normalize';
+// @import './utils/add-normalize';
 @import './utils/mixin';
 @import './utils/placeholder';
 
@@ -13,9 +15,8 @@
 @import './components/modal';
 @import './components/webpages';
 
-@import './header/start-header';
+@import './header/header';
 @import './header/mob-menu';
-// @import './header/mob-container';
 
 @import './header/nav-head';
 @import './header/contacts-head';
@@ -25,10 +26,7 @@
 @import './main/production';
 @import './main/team';
 @import './main/clients';
-
 @import './main/footer';
 
 @import './portfolio/filter';
 @import './portfolio/portfolio';
-
-// @import './main/nuanses';
