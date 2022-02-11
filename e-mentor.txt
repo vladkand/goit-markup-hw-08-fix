@@ -2,3 +2,7 @@
 2/ mobile-menu width: 100%
 3/ mobile-menu -- убрать класс container
 4/ цвет ссылок в mob-menu
+5/ перенос ссылок web-page-mobile
+6/ <span>для "соглашаюсь с расс..."
+7/ размер check-box modal
+8/ line-haight
