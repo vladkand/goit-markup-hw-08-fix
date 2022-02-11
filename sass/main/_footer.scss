@@ -217,15 +217,15 @@
   }
 }
 
-.mailing__btn {
-  display: flex;
+.button--composite {
+  display: inline-flex;
   justify-content: center;
 
   // @media screen and (max-width: 1199px)
-  @include max-tablet {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  // @include max-tablet {
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
 }
 
 .mailing__icon {

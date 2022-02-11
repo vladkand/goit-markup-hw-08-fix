@@ -271,16 +271,16 @@
 
 //  --- КНОПКА В МОДАЛКЕ --- */
 
-.form__btn {
-  color: var(--bg-prime-color);
-  background-color: var(--text-accent-color);
-  cursor: pointer;
+// .form__btn {
+//   color: var(--bg-prime-color);
+//   background-color: var(--text-accent-color);
+//   cursor: pointer;
 
-  transition: background-color $function, box-shadow $function;
+//   transition: background-color $function, box-shadow $function;
 
-  &:hover,
-  &:focus {
-    background-color: var(--bigButton-hover-focus);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  }
-}
+//   &:hover,
+//   &:focus {
+//     background-color: var(--bigButton-hover-focus);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   }
+// }

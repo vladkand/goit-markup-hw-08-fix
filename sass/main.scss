@@ -1,7 +1,5 @@
 @import './base/common';
-
 @import './utils/variables';
-// @import './utils/add-normalize';
 @import './utils/mixin';
 @import './utils/placeholder';
 
@@ -10,7 +8,7 @@
 @import './components/fonts';
 @import './components/logo';
 
-@import './components/big-button';
+@import './components/button';
 @import './components/menu-toggle';
 @import './components/modal';
 @import './components/webpages';
