@@ -1,3 +1,4 @@
 1/ Файл стилей main.min.css
 2/ mobile-menu width: 100%
 3/ mobile-menu -- убрать класс container
+4/ цвет ссылок в mob-menu
