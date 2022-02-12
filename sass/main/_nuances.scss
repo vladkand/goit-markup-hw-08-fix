@@ -1,6 +1,3 @@
-// .nuances * {
-//   background-color: wheat;
-// }
 .section__title--hidden {
   @extend %hidden;
 }
@@ -8,31 +5,14 @@
 .nuances-list {
   // @media screen and (min-width: 768px)
   @include tablet {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: -15px;
+    --card-item: 2;
   }
-}
-
-.nuances-list__item {
-  // @media screen and (min-width: 768px)
-  @include tablet {
-    margin: 15px;
-    flex-basis: calc((100% - 4 * 15px) / 2);
-  }
-
   // @media screen and (min-width: 1200px)
   @include desktop {
-    flex-basis: calc((100% - 8 * 15px) / 4);
-  }
-  &:not(:last-child) {
-    // @media screen and (max-width: 767px)
-    @include max-tel {
-      margin-bottom: 30px;
-    }
+    --card-item: 4;
   }
 }
+
 // !-----------------
 
 .nuances-list__box {

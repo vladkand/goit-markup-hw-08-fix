@@ -3,8 +3,6 @@
 // }
 
 .examples-list {
-  margin: -15px;
-
   @include tablet {
     display: flex;
     flex-wrap: wrap;
