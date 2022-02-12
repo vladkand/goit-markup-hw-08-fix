@@ -3,29 +3,43 @@
 @import './utils/mixin';
 @import './utils/placeholder';
 
-@import './components/section-container.scss';
+@import './components/section.scss';
+@import './components/container.scss';
+
 @import './components/fonts';
 @import './components/fonts';
 @import './components/logo';
 @import './components/card-set';
-
 @import './components/button';
 @import './components/menu-toggle';
 @import './components/modal';
 @import './components/webpages';
 
-@import './header/header';
-@import './header/mob-menu';
+// @import './header/header';
+// @import './header/mob-menu';
+// @import './header/nav-head';
+// @import './header/contacts-head';
 
-@import './header/nav-head';
-@import './header/contacts-head';
+//
+@import './layout/header';
+@import './layout/nav-head';
+@import './layout/contacts-head';
+@import './layout/mob-menu';
+@import './layout/hero';
+@import './layout/nuances';
+@import './layout/production';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/filter';
+@import './layout/portfolio';
 
-@import './main/hero';
-@import './main/nuances';
-@import './main/production';
-@import './main/team';
-@import './main/clients';
-@import './main/footer';
+// @import './hero';
+// @import './main/nuances';
+// @import './main/production';
+// @import './main/team';
+// @import './main/clients';
+// @import './main/footer';
 
-@import './portfolio/filter';
-@import './portfolio/portfolio';
+// @import './portfolio/filter';
+// @import './portfolio/portfolio';

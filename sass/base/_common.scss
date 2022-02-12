@@ -19,7 +19,6 @@ body {
   line-height: 1.71px;
   letter-spacing: 0.03em;
 
-  // background-color: var(--bg-prime-color);
   color: var(--text-prime-color);
 
   // ! ===== РИСУНКИ В INLINE-BLOCK
@@ -29,17 +28,17 @@ body {
     height: auto;
   }
 
+  // ! ===== PADDING для ВСЕХ INPUT
+  input {
+    padding: 0;
+  }
+
   // ! == УДАЛЕНЫ МАРКЕРЫ И margin-top-bottom ДЛЯ ВСЕХ СПИСКОВ
   .list {
     // margin-top: 0;
     // margin-bottom: 0;
     padding: 0;
     list-style: none;
-  }
-
-  // ! ===== PADDING для ВСЕХ INPUT
-  input {
-    padding: 0;
   }
 
   // ! ===== УДАЛЕНЫ ПОДЧЕРКИВАНИЕ ССЫЛОК
