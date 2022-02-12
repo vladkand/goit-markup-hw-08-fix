@@ -4,22 +4,20 @@
 
 .examples-list {
   @include tablet {
-    display: flex;
-    flex-wrap: wrap;
+    --card-item: 2;
+  }
+  @include desktop {
+    --card-item: 3;
   }
 }
 
 .examples-list__item {
-  margin: 15px;
-
   @include tablet {
     display: flex;
-    flex-basis: calc((100% - 4 * 15px) / 2);
   }
 
   @include desktop {
     display: flex;
-    flex-basis: calc((100% - 6 * 15px) / 3);
   }
 }
 
