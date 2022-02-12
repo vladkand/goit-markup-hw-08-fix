@@ -40,7 +40,7 @@
 
   border: 1px solid var(--icon-soc-color);
   border-radius: 4px;
-  transition: outline-color $function;
+  transition: outline-color $function, border-color $function;
 
   &:hover,
   &:focus {
