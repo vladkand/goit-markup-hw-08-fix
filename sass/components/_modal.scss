@@ -1,4 +1,4 @@
-// // ! ============ МОДАЛЬНОЕ ОКНО =========
+// ! ============ МОДАЛЬНОЕ ОКНО =========
 .backdrop {
   //  -- corset
   position: fixed;
@@ -221,6 +221,7 @@
   // font-weight: 400;
   line-height: (14 / 12);
   // letter-spacing: 0.03em;
+  cursor: pointer;
 
   @include desktop {
     font-size: 14px;

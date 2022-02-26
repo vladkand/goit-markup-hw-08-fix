@@ -9,6 +9,11 @@
   letter-spacing: 0.03em;
 
   color: var(--text-accent-color);
+
+  &:focus {
+    outline-color: var(--text-accent-color);
+  }
+
   & .logo__part--dark {
     color: var(--black-color);
   }
@@ -17,10 +22,6 @@
     color: var(--bg-prime-color);
   }
   transition: outline-color $function;
-
-  &:focus {
-    outline-color: var(--text-accent-color);
-  }
 
   @include desktop {
     font-size: 26px;

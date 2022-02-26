@@ -1,0 +1,11 @@
+1/ button filter-deleted "value"
+2/ pointer for check accord
+
+
+aria-label="Ссылка на Инстаграм"
+
+aria-label="Ссылка на Твиттер"
+
+aria-label="Ссылка на Фейсбук"
+
+aria-label="Ссылка на Липкедин"

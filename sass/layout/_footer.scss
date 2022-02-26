@@ -10,7 +10,9 @@
 
 .footer__container {
   display: block;
-  text-align: center;
+  @include max-tablet {
+    text-align: center;
+  }
 
   @include desktop {
     display: flex;
@@ -18,34 +20,46 @@
   }
 }
 
+// -- footer-item-media---
+.footer__item {
+  @include max-tel {
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+  @include desktop {
+    &:not(:last-child) {
+      margin-right: 70px;
+    }
+    &:last-child {
+      margin-left: auto;
+    }
+  }
+}
+
+.footer__wrapper {
+  @include tablet {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @include max-tablet {
+    margin-bottom: 60px;
+  }
+  @include desktop {
+    align-items: baseline;
+    margin-right: 70px;
+  }
+}
+
+// ----
+
 .footer__logo {
   display: block;
   padding: 0;
   margin-bottom: 20px;
-
-  // text-align: center;
 }
 // ---part
-
-.footer__contacts {
-  @include max-tablet {
-    margin-bottom: 60px;
-  }
-
-  @include tablet {
-    display: inline-block;
-    margin-right: 165px;
-  }
-
-  // @media screen and (min-width: 1200px)
-  @include desktop {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    // margin-bottom: 0;
-    margin-right: 86px;
-  }
-}
 
 .address-list {
   // @media screen and (min-width: 1200px)
@@ -59,10 +73,8 @@
 .address-list__txt {
   font-family: Roboto;
   font-style: normal;
-  // font-weight: 400;
   // font-size: 14px;
   line-height: 1.7;
-  // letter-spacing: 0.03em;
   color: var(--bg-prime-color);
 }
 
@@ -92,31 +104,14 @@
 
 //  ! БЛОК ПРИСОЕДИНЯЙТЕСЬ  */
 
-.join {
-  // @media screen and (max-width: 1199px)
-  @include max-tablet {
-    display: block;
-    margin-bottom: 60px;
-  }
+// .join {
+//   // @media screen and (max-width: 1199px)
 
-  // @media screen and (min-width: 768px)
-  @include tablet {
-    display: inline-block;
-    vertical-align: top;
-  }
-  // @media screen and (min-width: 1200px)
-  @include desktop {
-    display: inline-flex;
-    flex-direction: column;
-    margin-right: 93px;
-    align-items: flex-start;
-  }
-}
+// }
 
 .join__title {
   display: block;
   margin-bottom: 20px;
-  text-align: center;
 
   font-size: 14px;
   font-weight: 700;
@@ -142,13 +137,14 @@
   // @media screen and (min-width: 768px)
   @include tablet {
     display: inline-block;
-    width: 450px;
+    // width: 450px;
   }
   // @media screen and (min-width: 1200px)
   @include desktop {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: auto;
   }
 }
 

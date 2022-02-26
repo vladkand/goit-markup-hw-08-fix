@@ -36,6 +36,12 @@
   color: var(--text-prime-color);
   fill: currentColor;
 
+  @include desktop {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: (16 / 14);
+  }
+
   transition: border-color $function, outline-color $function, fill $function, color $function;
 
   &:hover,

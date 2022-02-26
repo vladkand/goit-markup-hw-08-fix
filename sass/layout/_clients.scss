@@ -1,19 +1,17 @@
 // ! --- СЕКЦИЯ КЛИЕНТЫ ---
 .client-list {
   --card-item: 2;
-  // justify-content: space-between;
 }
 
 .client-list__item {
   height: 92px;
 
   @include tablet {
-    flex-basis: calc((100% - 6 * 15px) / 3);
+    --card-item: 3;
   }
 
   @include desktop {
-    flex-basis: calc((100% - 6 * 30px) / 6);
-    // margin-top: 0;
+    --card-item: 6;
   }
 }
 
