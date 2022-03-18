@@ -114,7 +114,7 @@ body {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
-  line-height: calc(33 / 28);
+  line-height: 1.1785714286;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-second-color);
@@ -123,7 +123,7 @@ body {
   .section__title {
     margin-bottom: 50px;
     font-size: 36px;
-    line-height: calc(42 / 36);
+    line-height: 1.1666666667;
   }
 }
 
@@ -139,7 +139,7 @@ body {
   padding-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   color: var(--bg-prime-color);
   border: none;
   border-radius: 4px;
@@ -376,7 +376,7 @@ body {
   width: 100%;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.1666666667;
   color: var(--text-second-color);
   letter-spacing: 0.01em;
 }
@@ -996,7 +996,7 @@ body {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 26px;
-  line-height: calc(42 / 26);
+  line-height: 1.6153846154;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1005,7 +1005,7 @@ body {
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
-    line-height: calc(60 / 44);
+    line-height: 1.3636363636;
   }
 }
 
@@ -1040,7 +1040,7 @@ body {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -1052,7 +1052,7 @@ body {
 
 .nuances-list__txt {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
 }
 
@@ -1149,7 +1149,7 @@ body {
 
 .member__txt {
   font-size: 16px;
-  line-height: calc(24 / 14);
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
 }
 
@@ -1460,6 +1460,8 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-left: -8px;
+  margin-top: -15px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
@@ -1477,10 +1479,8 @@ body {
 }
 
 .filter__item {
-  margin-bottom: 15px;
-}
-.filter__item:not(:last-child) {
-  margin-right: 8px;
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .filter__btn {
@@ -1601,7 +1601,7 @@ body {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36 / 18);
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
