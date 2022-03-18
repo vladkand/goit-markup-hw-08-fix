@@ -51,6 +51,7 @@ input {
 }
 
 body {
+  min-width: 320px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -73,6 +74,11 @@ body {
 .container {
   padding: 0 15px;
   margin: 0 auto;
+}
+@media screen and (max-width: 319px) {
+  .container {
+    width: 280px;
+  }
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1154,7 +1160,12 @@ body {
 }
 
 .client-list {
-  --card-item: 2;
+  --card-item: 1;
+}
+@media screen and (min-width: 320px) {
+  .client-list {
+    --card-item: 2;
+  }
 }
 
 .client-list__item {

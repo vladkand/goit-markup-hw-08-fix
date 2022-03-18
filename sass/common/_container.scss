@@ -3,6 +3,10 @@
   padding: 0 15px;
   margin: 0 auto;
 
+  @media screen and (max-width: 319px) {
+    width: 280px;
+  }
+
   @include tel {
     width: 480px;
   }

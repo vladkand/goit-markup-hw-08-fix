@@ -1,6 +1,10 @@
 // ! --- СЕКЦИЯ КЛИЕНТЫ ---
 .client-list {
-  --card-item: 2;
+  --card-item: 1;
+
+  @media screen and (min-width: 320px) {
+    --card-item: 2;
+  }
 }
 
 .client-list__item {
