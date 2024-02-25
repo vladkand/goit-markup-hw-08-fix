@@ -14,7 +14,7 @@
   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "liveSassCompile.settings.generatedMap": true,
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
-  "liveServer.settings.port": 5502
+  "liveServer.settings.port": 5503
 }
 
 // -----------
